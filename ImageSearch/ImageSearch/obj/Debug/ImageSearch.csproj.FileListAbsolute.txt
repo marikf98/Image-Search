@@ -5,3 +5,10 @@ C:\Users\marik\Desktop\university\2022-2023\Operation systems\Ass1\ImageSearch\I
 C:\Users\marik\Desktop\university\2022-2023\Operation systems\Ass1\ImageSearch\ImageSearch\obj\Debug\ImageSearch.csproj.CoreCompileInputs.cache
 C:\Users\marik\Desktop\university\2022-2023\Operation systems\Ass1\ImageSearch\ImageSearch\obj\Debug\ImageSearch.exe
 C:\Users\marik\Desktop\university\2022-2023\Operation systems\Ass1\ImageSearch\ImageSearch\obj\Debug\ImageSearch.pdb
+C:\Users\marik\Documents\GitHub\Image-Search\ImageSearch\ImageSearch\bin\Debug\ImageSearch.exe
+C:\Users\marik\Documents\GitHub\Image-Search\ImageSearch\ImageSearch\bin\Debug\ImageSearch.pdb
+C:\Users\marik\Documents\GitHub\Image-Search\ImageSearch\ImageSearch\obj\Debug\ImageSearch.csproj.AssemblyReference.cache
+C:\Users\marik\Documents\GitHub\Image-Search\ImageSearch\ImageSearch\obj\Debug\ImageSearch.csproj.SuggestedBindingRedirects.cache
+C:\Users\marik\Documents\GitHub\Image-Search\ImageSearch\ImageSearch\obj\Debug\ImageSearch.csproj.CoreCompileInputs.cache
+C:\Users\marik\Documents\GitHub\Image-Search\ImageSearch\ImageSearch\obj\Debug\ImageSearch.exe
+C:\Users\marik\Documents\GitHub\Image-Search\ImageSearch\ImageSearch\obj\Debug\ImageSearch.pdb

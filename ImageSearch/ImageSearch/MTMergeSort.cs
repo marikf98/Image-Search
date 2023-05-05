@@ -1,25 +1,29 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.Design;
+using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 namespace ImageSearch
 {
-    public class MTMergeSort
+    public static class MTMergeSort
     {
         /*public List <string> MergeSort(string[] starList, int nMin = 2)
         {
             Sort(starList);
             return null;
         }*/
-        public List<(string t)> MergeSort(string[] starList, int nMin = 2)
+        public static List<string> MergeSort(string[] starList, int nMin = 2)
         {
-            
+            Sort(starList, nMin);
+            List<string>  result = starList.ToList();
+            return result;
         }
 
-        public static void Sort(string[] startList)
+        public static void Sort(string[] startList, int nMin)
         {
-            /*if (startList.Length > 1)
+            
+            if (startList.Length > nMin)
             {
                 int mid = startList.Length / 2;
 
@@ -28,8 +32,8 @@ namespace ImageSearch
                 Array.Copy(startList,0, firstHalf, 0,mid);
                 Array.Copy(startList, mid, secondHalf, 0, startList.Length - mid);
 
-                Thread threadFirstHalf = new Thread(() => Sort(firstHalf));
-                Thread threadSecondHalf = new Thread(() => Sort(secondHalf));
+                Thread threadFirstHalf = new Thread(() => Sort(firstHalf,nMin));
+                Thread threadSecondHalf = new Thread(() => Sort(secondHalf,nMin));
 
                 threadFirstHalf.Start();
                 threadSecondHalf.Start();
@@ -38,12 +42,16 @@ namespace ImageSearch
                 threadSecondHalf.Join();
 
                 Merge(firstHalf, secondHalf, startList);
-            }*/
-            
-            if (startList.Length > 1)
+            }
+            else
+            {
+                Array.Sort(startList);
+            }
+
+            /*if (startList.Length > 1)
             {
                 string[] arrays = new string[]
-            }
+            }*/
         }
         
         private static void Merge(string[] first, string[] second, string[] arr)
