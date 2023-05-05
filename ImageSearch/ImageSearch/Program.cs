@@ -24,7 +24,7 @@ namespace ImageSearch
                 counter++;
             }*/
             
-            string[] emptyArray = new string[0];
+            /*string[] emptyArray = new string[0];
             List<string>  result1 = MTMergeSort.MergeSort(emptyArray);
             Console.WriteLine(emptyArray.SequenceEqual(new string[0]));
             
@@ -57,8 +57,9 @@ namespace ImageSearch
             
             string[] nonAlphabeticArray = new string[] { "pear", "apple", "123", "@#%$", "kiwi", "cherry", "mango" };
             List<string>  result8 = MTMergeSort.MergeSort(nonAlphabeticArray);
-            Console.WriteLine(nonAlphabeticArray.SequenceEqual(new string[] { "@#%$", "123", "apple", "cherry", "kiwi", "mango", "pear" })); // Output: True
+            Console.WriteLine(nonAlphabeticArray.SequenceEqual(new string[] { "@#%$", "123", "apple", "cherry", "kiwi", "mango", "pear" })); // Output: True*/
             
+            ImageSearch.Search(args);
         }
     }
 }
