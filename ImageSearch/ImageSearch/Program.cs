@@ -59,7 +59,7 @@ namespace ImageSearch
             List<string>  result8 = MTMergeSort.MergeSort(nonAlphabeticArray);
             Console.WriteLine(nonAlphabeticArray.SequenceEqual(new string[] { "@#%$", "123", "apple", "cherry", "kiwi", "mango", "pear" })); // Output: True*/
             
-            ImageSearch.Search(args);
+            ImageSearch.FirstSearchOption(args);
         }
     }
 }
